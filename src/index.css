@@ -12,3 +12,7 @@ input {
 
   padding: 20px 24px;
 }
+
+input::placeholder {
+  color: #9495a5;
+}

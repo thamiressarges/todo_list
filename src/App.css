@@ -8,9 +8,28 @@
   
 }
 
+.content-app input {
+  width: 540px;
+}
+
 .content-tasks {
   width: 540px;
   height: 439px;
   border-radius: 5px;
   background-color: #fff;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  padding: 20px 24px;
+
+  height: 64px;
+
+  background: #fff;
+  border-bottom: 1px solid #e3e4f1;
+
+  font-size: 18px;
+  font-weight: 400;
+  color: #494c6b;
 }

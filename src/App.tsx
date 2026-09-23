@@ -7,9 +7,9 @@ function App() {
       <input type="text" placeholder='Adicionar nova tarefa' />
 
       <ul className='content-tasks'>
-        <li>Tarefa 1</li>
-        <li>Tarefa 2</li>
-        <li>Tarefa 3</li>
+        <li className='task-item'>Tarefa 1</li>
+        <li className='task-item'>Tarefa 2</li>
+        <li className='task-item'>Tarefa 3</li>
       </ul>
     
     </div>
