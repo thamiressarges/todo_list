@@ -1,8 +1,11 @@
 .container-app {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+
   min-height: 100vh;
   width: 100vw;
-  flex-direction: column;
+  
 }
 
 .content-tasks {
