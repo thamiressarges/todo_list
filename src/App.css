@@ -6,6 +6,18 @@
   min-height: 100vh;
   width: 100vw;
   
+  position: relative;
+}
+
+.container-app__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: darkcyan;
+
+  width: 100vw;
+  height: 200px;
 }
 
 .content-app input {
@@ -17,6 +29,9 @@
   height: 439px;
   border-radius: 5px;
   background-color: #fff;
+
+  position: absolute;
+  top: 150px;
 }
 
 .task-item {
